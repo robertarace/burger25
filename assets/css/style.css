@@ -1,0 +1,771 @@
+
+/*================================
+    GENERAL STYLES
+==================================*/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto); /* GOOGLE FREE FONTS */
+
+
+@font-face {
+    font-family: festivo;
+    src: url(../fonts/FestivoLettersNo.5.otf);
+}
+@font-face {
+    font-family: Tungsten;
+    src: url(../fonts/Tungsten-Medium.otf);
+}
+@font-face {
+    font-family: Sonora;
+    src: url(../fonts/SonoraProOT-Medium.otf);
+}
+@media (max-width: 480px){
+  .hours{
+    text-align:left; margin-left:0px;
+  }
+  .ordernow{
+    font-size:16pt; margin-top:1%; padding-left:0px;
+  }
+
+
+  .feed{
+    display: none;
+  }
+  .our25{
+  font-size: 118pt;
+  font-family:Tungsten;
+  margin-bottom: -72px;
+  margin-left: 20px;
+  }
+  .burgers{
+
+    font-size: 60pt;
+    font-family:festivo;
+    margin-left: 20px;
+  }
+
+  .social {
+      margin: 0;
+      padding: 0;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top:0;
+      padding-left: 0px;
+  }
+
+  .social ul {
+      margin: 0;
+      padding: 5px;
+  }
+
+  .social ul li {
+      margin: 5px;
+      list-style: none outside none;
+      display: inline-block;
+  }
+
+  .social i {
+      width: 30px;
+      height: 30px;
+      color: #FFF;
+      background-color: #909AA0;
+      font-size: 18px;
+      text-align:center;
+      padding-top: 12px;
+      border-radius: 50%;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -o-border-radius: 50%;
+      transition: all ease 0.3s;
+      -moz-transition: all ease 0.3s;
+      -webkit-transition: all ease 0.3s;
+      -o-transition: all ease 0.3s;
+      -ms-transition: all ease 0.3s;
+  }
+
+  .social i:hover {
+      color: #FFF;
+      text-decoration: none;
+      transition: all ease 0.3s;
+      -moz-transition: all ease 0.3s;
+      -webkit-transition: all ease 0.3s;
+      -o-transition: all ease 0.3s;
+      -ms-transition: all ease 0.3s;
+  }
+
+  .social .fa-facebook:hover {
+      background: #4060A5;
+  }
+
+  .social .fa-twitter:hover {
+      background: #00ABE3;
+  }
+
+  .social .fa-google-plus:hover {
+      background: #e64522;
+  }
+
+
+
+}
+@media (max-width: 999px){
+  .ordernow{
+    font-size:16pt; margin-top:3%; padding-left:20px;
+  }
+  .no_para_menu{
+
+    display: none;
+  }
+
+  .our25{
+  font-size: 118pt;
+  font-family:Tungsten;
+  margin-bottom: -72px;
+  margin-left: 20px;
+  }
+  .burgers{
+
+    font-size: 60pt;
+    font-family:festivo;
+    margin-left: 20px;
+  }
+  .social {
+      margin: 0;
+      padding: 0;
+      margin-left: 0;
+      margin-top: 2%;
+      padding-left: 0px;
+  }
+
+  .social ul {
+      margin: 0;
+      padding: 5px;
+  }
+
+  .social ul li {
+      margin: 5px;
+      list-style: none outside none;
+      display: inline-block;
+  }
+
+  .social i {
+      width: 30px;
+      height: 30px;
+      color: #FFF;
+      background-color: #909AA0;
+      font-size: 18px;
+      text-align:center;
+      padding-top: 12px;
+      border-radius: 50%;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -o-border-radius: 50%;
+      transition: all ease 0.3s;
+      -moz-transition: all ease 0.3s;
+      -webkit-transition: all ease 0.3s;
+      -o-transition: all ease 0.3s;
+      -ms-transition: all ease 0.3s;
+  }
+
+  .social i:hover {
+      color: #FFF;
+      text-decoration: none;
+      transition: all ease 0.3s;
+      -moz-transition: all ease 0.3s;
+      -webkit-transition: all ease 0.3s;
+      -o-transition: all ease 0.3s;
+      -ms-transition: all ease 0.3s;
+  }
+
+  .social .fa-facebook:hover {
+      background: #4060A5;
+  }
+
+  .social .fa-twitter:hover {
+      background: #00ABE3;
+  }
+
+  .social .fa-google-plus:hover {
+      background: #e64522;
+  }
+
+
+}
+@media (min-width: 1000px){
+  .hours{
+    text-align:left; margin-left:150px;
+  }
+  .ordernow{
+    font-size:16pt; margin-top:2%; padding-left:10px;
+  }
+
+.no_para_menu{
+
+display: none;
+}
+.our25{
+  font-family:Tungsten;font-size:210px; margin-bottom:-88px; margin-top:5%;
+}
+.burgers{
+
+  font-family:festivo; font-size:110px;
+}
+  .social {
+      margin: 0;
+      padding: 0;
+      margin-left: 0;
+      margin-top: 2%;
+      padding-left: 290px;
+  }
+
+  .social ul {
+      margin: 0;
+      padding: 5px;
+  }
+
+  .social ul li {
+      margin: 5px;
+      list-style: none outside none;
+      display: inline-block;
+  }
+
+  .social i {
+      width: 30px;
+      height: 30px;
+      color: #FFF;
+      background-color: #909AA0;
+      font-size: 18px;
+      text-align:center;
+      padding-top: 12px;
+      border-radius: 50%;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -o-border-radius: 50%;
+      transition: all ease 0.3s;
+      -moz-transition: all ease 0.3s;
+      -webkit-transition: all ease 0.3s;
+      -o-transition: all ease 0.3s;
+      -ms-transition: all ease 0.3s;
+  }
+
+  .social i:hover {
+      color: #FFF;
+      text-decoration: none;
+      transition: all ease 0.3s;
+      -moz-transition: all ease 0.3s;
+      -webkit-transition: all ease 0.3s;
+      -o-transition: all ease 0.3s;
+      -ms-transition: all ease 0.3s;
+  }
+
+  .social .fa-facebook:hover {
+      background: #4060A5;
+  }
+
+  .social .fa-twitter:hover {
+      background: #00ABE3;
+  }
+
+  .social .fa-google-plus:hover {
+      background: #e64522;
+  }
+
+
+
+
+}
+@media only screen and (max-device-width: 480px) {
+    .parallax-like {
+        display: none;
+    }
+}
+@media only screen and (max-device-width: 480px) {
+    .parallax-like1 {
+        display: none;
+    }
+}
+
+
+.angus{
+height:auto; width:80%;
+}
+@media (max-width: 780px){
+.angus{
+  display: none;
+}
+.chicken{
+  display: none;
+}
+.specials{
+  display: none;
+}
+.salad{
+  display: none;
+}
+.wings{
+  display: none;
+}
+.kids{
+  display: none;
+}
+.shakes{
+  display: none;
+}
+.hotdog{
+  display: none;
+}
+.sides{
+  display: none;
+}
+
+}
+@media screen and (max-width: 800px) {
+    .angus {
+        height:auto;
+        width: 65%;
+    }
+}
+.specials{
+height:auto; width:80%;
+}
+@media screen and (max-width: 800px) {
+    .specials {
+        height:autp;
+        width: 65%;
+    }
+}
+.chicken{
+height:auto; width:80%;
+}
+@media screen and (max-width: 800px) {
+    .chicken {
+        height:autp;
+        width: 65%;
+    }
+}
+.hotdog{
+height:auto; width:80%;
+}
+@media screen and (max-width: 800px) {
+    .hotdog {
+        height:autp;
+        width: 65%;
+    }
+}
+.pic {
+border: 10px solid #fff;
+float: left;
+height: 300px;
+width: 600px;
+margin: 10px;
+overflow: hidden;
+
+}
+.swip{
+background: url("../img/mon_over.png");
+background-size:600px 300px;
+display: inline;
+}
+.swip img{
+margin-left: 0 px;
+-webkit-transition: margin 2s ease;
+-moz-transition: margin 2s ease;
+-o-transition: margin 2s ease;
+transition: margin 2s ease;
+}
+.swip img:hover{
+margin-left: -1020px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.head-set {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pad-bottom {
+    padding-bottom: 60px;
+}
+/*================================
+    NAVBAR STYLES
+==================================*/
+.navbar-default {
+    background-color: rgb(35, 133, 161);
+    border-color: transparent;
+    color: #fff;
+}
+
+    .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover {
+        color: #fff;
+    }
+
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:#fff;
+}
+/*================================
+    HOME SECTION STYLES
+==================================*/
+
+/*STYLE OF BACKGROUND IMAGE*/
+#home {
+    background: url(../img/burger25.gif) no-repeat center center; /*Full Witdth background image*/
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    min-height: 600;
+}
+
+#home2 {
+    background: url(../img/burger25.gif) no-repeat center center; /*Full Witdth background image*/
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    min-height: 400;
+}
+#section2 {
+    background: url(../img/texture1.jpg) no-repeat center center; /*Full Witdth background image*/
+    padding: 50;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    height:680px;
+
+}
+
+    /*STYLE FOR OVERLAY CLASS - WHICH IS ABOVE IMAGE WITH OPACITY/TRANSPARENCY 0.75*/
+    #home .overlay {
+        padding-top: 90px;
+        background-color: rgba(35, 133, 161,0.0); /*.75 opacity of the color so that background image is visible*/
+        min-height: 600;
+        color: #fff;
+    }
+
+    /*STYLE FOR OVERLAY CLASS - WHICH IS ABOVE IMAGE WITH OPACITY/TRANSPARENCY 0.75*/
+    #home2 .overlay {
+        padding-top: 40px;
+        background-color: rgba(35, 133, 161,0.0); /*.75 opacity of the color so that background image is visible*/
+  min-height: 400;
+        color: #fff;
+    }
+
+    #home h1 {
+        padding-top: 80px;
+        font-weight: 900;
+        font-size: 100px;
+        font-family: 'Browallia New';
+    }
+    #home2 h1 {
+        padding-top: 80px;
+        font-weight: 900;
+        font-size: 100px;
+        font-family: 'Browallia New';
+    }
+/*SMPLE CLASS TO ADJUST SECTION PADDING & HEIGHT*/
+
+/*CLASS TO FORMAT TEXT*/
+.p-cls {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+/*======================================
+    PARALLAX LIKE / STATS SECTION STYLES
+=========================================*/
+
+.parallax-like {
+    background: url(../img/burger25.gif) no-repeat center center;/* DEFINE IMAGE PATH CAREFULLY*/
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+.parallax-like1 {
+    background: url(../img/texture1.jpg) no-repeat center center; /* DEFINE IMAGE PATH CAREFULLY*/
+    padding: 80;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+.parallax-like2 {
+    background: url(../img/milkshake.jpg) no-repeat center center; /* DEFINE IMAGE PATH CAREFULLY*/
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+
+
+    .parallax-like .overlay {
+        min-height: 820px;
+        background: rgba(35, 133, 161,0.0);
+        font-size: 40px;
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+    .parallax-like1 .overlay {
+        min-height: 150px;
+        background: rgba(35, 133, 161,0.0);
+        font-size: 40px;
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+    .parallax-like2 .overlay {
+        min-height: 400px;
+        background: rgba(35, 133, 161,0.0);
+        font-size: 40px;
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+
+
+
+/*================================
+    PORTFOLIO / WORK SECTION STYLES
+==================================*/
+.portfolio-item img:hover { /* POSTFOLIO IMAGE BIG ON HOVER */
+    cursor: pointer;
+    -webkit-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    z-index: 1;
+}
+
+/*================================
+    VIDEO SECTION STYLES
+==================================*/
+#video-sec {
+    color: #fff;
+    text-align: center;
+}
+
+    #video-sec .overlay {
+        background-color: rgba(0, 0, 0, 0.85);
+        min-height: 300px;
+        color: #fff;
+    }
+
+    #video-sec h1 {
+        padding-top: 80px;
+        font-size: 50px;
+        font-weight: 900;
+        padding-bottom: 30px;
+    }
+/*================================
+    CLIENTS SECTION STYLES
+==================================*/
+#clients {
+    background-color:#f4f4f4;
+    padding-bottom:50px;
+    padding-top:50px;
+}
+    #clients img {
+        opacity:0.5;
+        cursor:pointer;
+    }
+        #clients img:hover {
+            opacity:1;
+        }
+/*================================
+    FOOTER SECTION STYLES
+==================================*/
+
+footer {
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 900;
+    background-color: rgb(122, 122, 122);
+    color: #fff;
+}
+
+    footer a, footer a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+
+#feedback-page{
+	text-align:center;
+}
+
+#form-main{
+	width:100%;
+	float:left;
+	padding-top:0px;
+}
+
+#form-div {
+	background-color:rgba(72,72,72,0.4);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float: left;
+	left: 50%;
+	position: absolute;
+  margin-top:30px;
+	margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #3498db;
+	color: #3498db;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #3498db;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #0493bd;
+}
+
+.submit:hover {
+	color: #3498db;
+}
+
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
